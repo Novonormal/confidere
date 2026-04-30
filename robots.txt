@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://confiderehigienizacao.com.br/sitemap.xml
