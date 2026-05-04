@@ -2222,3 +2222,24 @@ main > .section-tight:last-of-type .eyebrow::before {
   color: var(--color-text-inverse) !important;
   box-shadow: var(--shadow-medium);
 }
+
+a.btn.btn-primary,
+button.btn.btn-primary {
+  background: var(--color-brand) !important;
+  color: var(--color-text-inverse) !important;
+}
+
+a.btn.btn-primary *,
+button.btn.btn-primary * {
+  color: inherit !important;
+}
+
+a.btn.btn-primary::after,
+button.btn.btn-primary::after {
+  z-index: 0;
+}
+
+a.btn.btn-primary,
+button.btn.btn-primary {
+  isolation: isolate;
+}
