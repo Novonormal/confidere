@@ -2243,3 +2243,18 @@ a.btn.btn-primary,
 button.btn.btn-primary {
   isolation: isolate;
 }
+
+.content a:not(.btn),
+article .content a:not(.btn) {
+  color: var(--color-muted) !important;
+  font-weight: 700;
+  text-decoration: underline;
+  text-decoration-color: rgba(75, 90, 80, 0.35);
+  text-underline-offset: 0.18em;
+}
+
+.content a:not(.btn):hover,
+article .content a:not(.btn):hover {
+  color: var(--color-text) !important;
+  text-decoration-color: var(--color-brand);
+}
